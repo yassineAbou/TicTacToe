@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.GetNameActivity">
+
+    <EditText
+        android:id="@+id/activity_get_name_player1_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER PLAYER 1 NAME"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#615F5F"
+        android:textColorHint="#8F8C8C"
+        />
+
+    <EditText
+        android:id="@+id/activity_get_name_player2_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER PLAYER 2 NAME"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#615F5F"
+        android:textColorHint="#8F8C8C"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_get_name_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="play_now"
+        android:backgroundTint="#DCDCDC"
+         />
+
+</LinearLayout>

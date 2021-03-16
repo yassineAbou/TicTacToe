@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tictactoe0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TicTacToe0">
+        <activity android:name=".Controller.GetNameActivity"></activity>
+        <activity android:name=".Controller.TicStart">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.MainActivity"></activity>
+    </application>
+
+</manifest>
